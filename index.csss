@@ -1,4 +1,4 @@
-body {
+:body {
       scroll-behavior: smooth;
     }
     .hero {
@@ -15,4 +15,8 @@ body {
     .project-card:hover {
       transform: scale(1.05);
     }
-    
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+    }

@@ -6,7 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Font Awesome (for icons) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="footer.css">
+  
   <link rel="stylesheet" href="index.css">
+
+  
 
 <body>
   <!-- Navbar -->
@@ -18,18 +26,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="Projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
+<!-- bnner-->
   <section class="hero text-center">
     <div class="container">
-      <h1>Hello, I'm Jane Doe</h1>
-      <p class="lead">Web Developer | UI/UX Designer | Tech Enthusiast</p>
+      <h1>Hello, I'm Md Gulam Noxbondy</h1>
+      <p class="lead">Full-Stack-Developer  | Graphic Designer | Tech Enthusiast</p>
       <a href="#projects" class="btn btn-outline-light mt-3">View My Work</a>
     </div>
   </section>
@@ -40,82 +50,105 @@
       <h2 class="text-center mb-4">About Me</h2>
       <div class="row justify-content-center">
         <div class="col-md-8">
-          <p>Hello! I'm Jane, a passionate front-end developer with a love for clean design and responsive layouts. I specialize in creating beautiful, user-friendly websites using modern web technologies.</p>
+          <p>A Full-Stack Developer is a software developer who works on both the frontend (client side) and backend
+             (server side) of web applications. They have knowledge of how to build user interfaces, manage databases, and create APIs, 
+            making them versatile in the development process.</p>
         </div>
       </div>
     </div>
   </section>
 
-   <!-- Projects Section -->
-  <section id="projects" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">My Projects</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card project-card">
-            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 1">
-            <div class="card-body">
-              <h5 class="card-title">Project One</h5>
-              <p class="card-text">A responsive web app built with HTML, CSS, and JavaScript.</p>
-              <a href="#" class="btn btn-primary">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card project-card">
-            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 2">
-            <div class="card-body">
-              <h5 class="card-title">Project Two</h5>
-              <p class="card-text">An interactive portfolio page using Bootstrap 5.</p>
-              <a href="#" class="btn btn-primary">View</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card project-card">
-            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 3">
-            <div class="card-body">
-              <h5 class="card-title">Project Three</h5>
-              <p class="card-text">A simple blog layout created with modern CSS techniques.</p>
-              <a href="#" class="btn btn-primary">View</a>
-            </div>
-          </div>
-        </div>
-      </div>
+   
+  
+
+<!--Work Experience--->
+ <div class="container table-container">
+    <h2 class="section-title">Work Experience</h2>
+    <div class="table-responsive">
+      <table class="table table-striped table-hover align-middle">
+        <thead>
+          <tr>
+            <th scope="col">Company</th>
+            <th scope="col">Position</th>
+            <th scope="col">Duration</th>
+            <th scope="col">Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Google</td>
+            <td>Software Engineer</td>
+            <td>Jan 2021 – Present</td>
+            <td>Mountain View, CA</td>
+          </tr>
+          <tr>
+            <td>Microsoft</td>
+            <td>Backend Developer</td>
+            <td>Aug 2018 – Dec 2020</td>
+            <td>Redmond, WA</td>
+          </tr>
+          <tr>
+            <td>IBM</td>
+            <td>Intern</td>
+            <td>Jun 2017 – Jul 2018</td>
+            <td>New York, NY</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  </section>
-  <!-- Contact Section -->
-  <section id="contact" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Contact Me</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Your Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-dark w-100">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
   <!-- Footer -->
-  <footer class="text-center">
-    <div class="container">
-      <p class="mb-0">&copy; 2025 Jane Doe. All rights reserved.</p>
-    </div>
-  </footer>
 
+  <footer class="text-white pt-4 pb-2">
+    <div class="container mt-12">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+        <h5>About Us</h5>
+        <p>We are committed to providing the best IT services to our customers.</p>
+        </div>
+
+        <!---Quick Links -->
+        <div class="col-md-2 mb-12">
+          <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="Projects.html" class="text-white text-decoration-none">Projects</a></li>
+          <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+        </div>
+
+        <!---Contact Us -->
+        <div class="col-md-3 mb-12">
+          <h5>Contact Us</h5>
+          <p>Email:
+        </div>
+
+        <!---social media -->
+        <div class="col-md-2 mb-12">
+          <h5>Follow Us</h5>
+        <div class="container">
+      <div class="mb-3">
+        <a href="www.linkedin.com/in/gulam-noxbondy-83b16882" target="_blank" class="text-white me-3">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://github.com/noxbondy?tab=repositories" target="_blank" class="text-white me-3">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://facebook.com/yourprofile" target="_blank" class="text-white">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+      </div>
+    
+    </div>
+            
+      </div>
+
+    </div>
+<div class="container">
+<p> 2025 Your Name. All rights reserved. </p>
+</div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
