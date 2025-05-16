@@ -1,0 +1,31 @@
+.circle-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #ccc; /* Optional border */
+      }
+      .circle-img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #ccc; /* Optional border */
+        margin-top: 50px;
+        margin-right: 100cm;
+  
+      }
+      .about{
+        display: flex;
+        align-items:auto;
+        justify-content: left;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 20px;
+        
+      }
+  .container-skill{
+    margin-left: 250px;
+  }
+     
+     

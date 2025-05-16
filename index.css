@@ -15,4 +15,29 @@ body {
     .project-card:hover {
       transform: scale(1.05);
     }
-    
+.section-title{
+  text-align: center;
+}
+   
+   .skill{
+    margin-top: 5rem;
+   }
+
+    .section-title {
+        margin-top: 2rem;
+        font-weight: bold;
+        
+      }
+      .skill-label {
+        margin-bottom: 0.2rem;
+      }
+      .progress {
+        height: 20px;
+        margin-bottom: 1rem;
+      }
+      .progress-bar-yellow {
+        background-color: #f1c40f;
+      }
+      .progress-bar-cyan {
+        background-color: #00cfff;
+      }
